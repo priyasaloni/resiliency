@@ -50,4 +50,4 @@ fi
 # Simulate a reboot
 echo "Simulating reboot in 5 seconds..." | tee -a $LOG_FILE
 sleep 5
-sudo shutdown -r now
+sudo /sbin/shutdown -r now
